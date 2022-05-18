@@ -1,7 +1,3 @@
-fn main() {
-    vectors();
-}
-
 fn vectors(){
     let collected_iterator : Vec<i32> = (0..10).collect();
     println!("Collected  (0..10) into {:?}", collected_iterator);
@@ -23,6 +19,10 @@ fn vectors(){
     //indexing is done using square brackets
     //indexing starts at 0
     println!("The second element is {}", xs[1]);
+}
+
+fn main() {
+    vectors();
 }
 
 
