@@ -18,7 +18,7 @@ fn main() {
     let guess2:u32 = 33;
     let mut guess: u64 = 34;
 
-    const  _numb: i8 = -45;
+    const  numb: i8 = -45;
     const numb2 : i16 = 45;
     const numb3 : i32 = 45;
     const numb4 : i64 = 45;
