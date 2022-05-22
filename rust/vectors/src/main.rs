@@ -21,8 +21,23 @@ fn vectors(){
     println!("The second element is {}", xs[1]);
 }
 
+
+
+fn vector2 (){
+    let reagan : Vec<i32> = (-5..20).collect();
+    println!("Vector 2: {:?}", reagan);
+
+    // Iterating through a vector
+    for r in reagan.iter() {
+        println!(">{} ", r);
+    }
+
+    
+}
+
 fn main() {
     vectors();
+    vector2();
 }
 
 
